@@ -15,13 +15,16 @@ def greeting(greeting, name)
 end
 
 def return_a_value
-  puts "Nice"
+  return_a_value "Nice"
 end
 
 def last_evaluated_value
-  puts "expert"
+  return "expert"
 end
 
-def pizza_party(arg = "cheese")
-  puts arg 
+def pizza_party(arg)
+  if arg == nil
+    return "cheese"
+  else 
+    return arg
 end
