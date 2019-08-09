@@ -25,6 +25,6 @@ end
 def pizza_party(arg)
   if arg == nil
     return "cheese"
-  else 
+  else
     return arg
 end
